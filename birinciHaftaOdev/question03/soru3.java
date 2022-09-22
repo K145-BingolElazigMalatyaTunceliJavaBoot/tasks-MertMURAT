@@ -11,7 +11,7 @@ public class soru3 {
 
             int toplam = 0;
 
-            for(int i = 0; i < 5 ; i++){
+            for(int i = 200; i < 500 ; i++){
                 if(i%3 == 0){
                     continue;
                 }
