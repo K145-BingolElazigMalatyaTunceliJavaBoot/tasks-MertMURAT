@@ -2,7 +2,7 @@ package question04;
 
 import java.util.Random;
 
-public class soru4 {
+public class Question4 {
     public static void main(String[] args) {
         Random random = new Random();
         int guess = 0;

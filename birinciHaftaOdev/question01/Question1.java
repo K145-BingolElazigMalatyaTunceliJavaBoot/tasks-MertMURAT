@@ -11,7 +11,7 @@ package question01;
 
 import java.util.Random;
 
-public class soru1 {
+public class Question1 {
     public static void main(String[] args) {
 
         //int puan = (int) (Math.random() * 100 + 1); //Bu metod da random sayı üretmek için kullanılabilir.

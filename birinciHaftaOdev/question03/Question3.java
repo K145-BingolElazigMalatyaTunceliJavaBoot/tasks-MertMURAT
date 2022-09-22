@@ -6,7 +6,7 @@
 
 package question03;
 
-public class soru3 {
+public class Question3 {
     public static void main(String[] args) {
 
             int toplam = 0;
