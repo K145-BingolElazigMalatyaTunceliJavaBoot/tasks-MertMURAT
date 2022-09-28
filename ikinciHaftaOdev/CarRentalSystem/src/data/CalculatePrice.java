@@ -4,12 +4,12 @@ public class CalculatePrice {
 
 
 
-    public static int Price(int year, int price1) {
+    public static int Price(int year, int day) {
        int dailyprice = 0;
-        if(price1 < 30) {
-             dailyprice = price1 * 350;
-        }else if(price1 >= 30) {
-             dailyprice = price1 * 300;
+        if(day < 30) {
+             dailyprice = day * 350;
+        }else if(day >= 30) {
+             dailyprice = day * 300;
         }
         int total = 0;
         int daily = 0;
