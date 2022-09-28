@@ -37,11 +37,11 @@ public class Main {
 
 
             System.out.print("Kaç günlüğüne kiralamak istiyorsunuz? : ");
-            int price1 = Integer.parseInt(scanner.next());
+            int day = Integer.parseInt(scanner.next());
 
             String hb = HatchBack.hbYear();
             int year = Integer.valueOf(hb);
-            int calculate = CalculatePrice.Price(year,price1);
+            int calculate = CalculatePrice.Price(year,day);
             System.out.println("Toplam Tutar: " + calculate);
 
         }else if(auth.equalsIgnoreCase("Company") ) {
@@ -84,20 +84,20 @@ public class Main {
             if(vehiclechoose.equalsIgnoreCase("Fıat")) {
 
                 System.out.print("Kaç günlüğüne kiralamak istiyorsunuz? : ");
-                int price1 = Integer.parseInt(scanner.next());
+                int day = Integer.parseInt(scanner.next());
 
                 String se = Sedan.seYear();
                 int year = Integer.valueOf(se);
-                int calculate = CalculatePrice.Price(year, price1);
+                int calculate = CalculatePrice.Price(year, day);
                 System.out.println("Toplam Tutar: " + calculate);
             } else if (vehiclechoose.equalsIgnoreCase("Citroen")){
 
                 System.out.print("Kaç günlüğüne kiralamak istiyorsunuz? : ");
-                int price1 = Integer.parseInt(scanner.next());
+                int day = Integer.parseInt(scanner.next());
 
                 String su = Suv.suYear();
                 int year = Integer.valueOf(su);
-                int calculate = CalculatePrice.Price(year, price1);
+                int calculate = CalculatePrice.Price(year, day);
                 System.out.println("Toplam Tutar: " + calculate);
 
 
