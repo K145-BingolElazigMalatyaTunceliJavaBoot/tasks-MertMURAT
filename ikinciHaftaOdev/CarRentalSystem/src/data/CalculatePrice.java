@@ -15,10 +15,10 @@ public class CalculatePrice {
         int daily = 0;
 
         if(2022 - year == 0){
-             daily = (2022 - year) * 50;
+             daily = daily + (day * 40);
             
         } else if (2022 - year > 0) {
-           daily = (2022 - year) * 50;
+           daily = daily - (((2022 - year) * 40) * day);
         }
 
         total = dailyprice + daily ;
