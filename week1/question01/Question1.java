@@ -14,7 +14,7 @@ import java.util.Random;
 public class Question1 {
     public static void main(String[] args) {
 
-        //int puan = (int) (Math.random() * 100 + 1); //Bu metod da random sayı üretmek için kullanılabilir.
+        //int puan = (int) (Math.random() * 100 + 1); //Bu  metod da random sayı üretmek için kullanılabilir.
         Random random = new Random();
         int puan = random.nextInt(100);
 
